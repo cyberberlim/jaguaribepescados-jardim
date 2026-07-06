@@ -25,19 +25,19 @@
     width: 4px;
     height: 60%;
     border-radius: 0 4px 4px 0;
-    background: #00F2FE;
+    background: #AAAAAA;
     opacity: 0;
     transition: all 0.2s ease;
   }
   .nav-item:hover {
     background: rgba(255, 255, 255, 0.03);
-    color: #00F2FE;
+    color: #AAAAAA;
   }
   .nav-item:hover i {
-    color: #00F2FE;
+    color: #AAAAAA;
   }
   .nav-item.active {
-    background: linear-gradient(90deg, rgba(10,34,64,0.45) 0%, rgba(2,128,144,0.08) 100%);
+    background: linear-gradient(90deg, rgba(10,34,64,0.45) 0%, rgba(136,136,136,0.08) 100%);
     color: #fff !important;
   }
   .nav-item.active::before {
@@ -45,9 +45,9 @@
     transform: translateY(-50%) scaleY(1);
   }
   .nav-item.active i {
-    color: #00F2FE !important;
+    color: #AAAAAA !important;
   }
-  .grad-btn { background: linear-gradient(135deg, #028090 0%, #00F2FE 120%); }
+  .grad-btn { background: linear-gradient(135deg, #888888 0%, #AAAAAA 120%); }
   .grad-btn:hover { filter: brightness(1.15); }
   .modal-wrap { background: rgba(0,0,0,.75); backdrop-filter: blur(4px); }
 </style>
@@ -114,7 +114,7 @@
      <header class="canva-header hidden md:flex items-center justify-between px-8 py-4 border-b border-white/5 sticky top-0 z-20" style="background:#051426;">
       <span data-template-id="topbar-company" class="canva-text font-semibold"></span>
       <div class="flex items-center gap-5">
-       <button class="relative text-gray-400 hover:text-white transition" aria-label="Notificações"><i data-lucide="bell" style="width:20px;height:20px;"></i><span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full" style="background:#00F2FE;"></span></button>
+       <button class="relative text-gray-400 hover:text-white transition" aria-label="Notificações"><i data-lucide="bell" style="width:20px;height:20px;"></i><span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full" style="background:#AAAAAA;"></span></button>
        <div class="flex items-center gap-3">
         <img data-template-id="topbar-avatar" loading="lazy" class="canva-image w-9 h-9 rounded-full object-cover ring-2 ring-white/10"> <span data-template-id="topbar-user" class="canva-text text-sm font-medium"></span>
        </div>
@@ -131,13 +131,13 @@
        </div>
        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
         <div data-template-id="kpi-1" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
-         <div class="flex items-center justify-between"><span data-template-id="kpi-1-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="trending-up" style="width:20px;height:20px;color:#00F2FE;"></i>
+         <div class="flex items-center justify-between"><span data-template-id="kpi-1-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="trending-up" style="width:20px;height:20px;color:#AAAAAA;"></i>
          </div>
          <p data-template-id="kpi-1-value" class="canva-text font-extrabold mt-3"></p>
          <p data-template-id="kpi-1-delta" class="canva-text text-xs mt-1"></p>
         </div>
         <div data-template-id="kpi-2" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
-         <div class="flex items-center justify-between"><span data-template-id="kpi-2-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="arrow-down-up" style="width:20px;height:20px;color:#00F2FE;"></i>
+         <div class="flex items-center justify-between"><span data-template-id="kpi-2-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="arrow-down-up" style="width:20px;height:20px;color:#AAAAAA;"></i>
          </div>
          <p data-template-id="kpi-2-value" class="canva-text font-extrabold mt-3"></p>
          <p data-template-id="kpi-2-delta" class="canva-text text-xs mt-1"></p>
@@ -149,7 +149,7 @@
          <p data-template-id="kpi-3-delta" class="canva-text text-xs mt-1"></p>
         </div>
         <div data-template-id="kpi-4" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
-         <div class="flex items-center justify-between"><span data-template-id="kpi-4-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="landmark" style="width:20px;height:20px;color:#00F2FE;"></i>
+         <div class="flex items-center justify-between"><span data-template-id="kpi-4-label" class="canva-text text-sm text-gray-400"></span><i data-lucide="landmark" style="width:20px;height:20px;color:#AAAAAA;"></i>
          </div>
          <p data-template-id="kpi-4-value" class="canva-text font-extrabold mt-3"></p>
          <p data-template-id="kpi-4-delta" class="canva-text text-xs mt-1"></p>
@@ -169,12 +169,12 @@
        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div data-template-id="dash-prod-card" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
          <h4 data-template-id="dash-prod-title" class="canva-text font-semibold"></h4>
-         <p data-template-id="dash-prod-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="dash-prod-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
          <p data-template-id="dash-prod-note" class="canva-text text-xs text-gray-400 mt-1"></p>
         </div>
         <div data-template-id="dash-cli-card" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
          <h4 data-template-id="dash-cli-title" class="canva-text font-semibold"></h4>
-         <p data-template-id="dash-cli-value" class="canva-text font-extrabold mt-2" style="color:#028090;"></p>
+         <p data-template-id="dash-cli-value" class="canva-text font-extrabold mt-2" style="color:#888888;"></p>
          <p data-template-id="dash-cli-note" class="canva-text text-xs text-gray-400 mt-1"></p>
         </div>
        </div>
@@ -225,18 +225,18 @@
          <p data-template-id="fin-subtitle" class="canva-text text-sm text-gray-400"></p>
         </div>
         <div class="flex items-center gap-2 flex-wrap">
-         <select id="fin-filter" class="rounded-xl px-3 py-2.5 text-sm border border-white/10 outline-none text-gray-200" style="background:#051426;"> <option>Julho · 2026</option><option>Junho · 2026</option><option>Maio · 2026</option> </select> <button data-modal="modal-receita" data-template-id="fin-new-rec" class="canva-button font-semibold px-4 py-2.5 rounded-xl flex items-center gap-2 text-white" style="background:#028090;"><i data-lucide="plus" style="width:16px;height:16px;"></i><span></span></button> <button data-modal="modal-despesa" data-template-id="fin-new-desp" class="canva-button font-semibold px-4 py-2.5 rounded-xl flex items-center gap-2 text-white" style="background:#E85D5D;"><i data-lucide="minus" style="width:16px;height:16px;"></i><span></span></button> <button data-export data-template-id="fin-export" class="canva-button font-medium px-4 py-2.5 rounded-xl flex items-center gap-2 border border-white/10 text-gray-200"><i data-lucide="file-down" style="width:16px;height:16px;"></i><span></span></button>
+         <select id="fin-filter" class="rounded-xl px-3 py-2.5 text-sm border border-white/10 outline-none text-gray-200" style="background:#051426;"> <option>Julho · 2026</option><option>Junho · 2026</option><option>Maio · 2026</option> </select> <button data-modal="modal-receita" data-template-id="fin-new-rec" class="canva-button font-semibold px-4 py-2.5 rounded-xl flex items-center gap-2 text-white" style="background:#888888;"><i data-lucide="plus" style="width:16px;height:16px;"></i><span></span></button> <button data-modal="modal-despesa" data-template-id="fin-new-desp" class="canva-button font-semibold px-4 py-2.5 rounded-xl flex items-center gap-2 text-white" style="background:#E85D5D;"><i data-lucide="minus" style="width:16px;height:16px;"></i><span></span></button> <button data-export data-template-id="fin-export" class="canva-button font-medium px-4 py-2.5 rounded-xl flex items-center gap-2 border border-white/10 text-gray-200"><i data-lucide="file-down" style="width:16px;height:16px;"></i><span></span></button>
         </div>
        </div>
        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div data-template-id="fin-card-receita" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="fin-receita-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="fin-receita-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="fin-receita-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
         </div>
         <div data-template-id="fin-card-despesa" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="fin-despesa-label" class="canva-text text-sm text-gray-400"></span>
          <p data-template-id="fin-despesa-value" class="canva-text font-extrabold mt-2" style="color:#FF4A4A;"></p>
         </div>
         <div data-template-id="fin-card-saldo" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="fin-saldo-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="fin-saldo-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="fin-saldo-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
         </div>
        </div>
        <div class="canva-card rounded-xl border border-white/5 overflow-hidden" style="border-radius:12px;background:#09192E;">
@@ -283,10 +283,10 @@
        </div>
        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div data-template-id="eg-card-rend" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="eg-rend-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="eg-rend-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="eg-rend-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
         </div>
         <div data-template-id="eg-card-peso" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="eg-peso-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="eg-peso-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="eg-peso-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
         </div>
         <div data-template-id="eg-card-cx" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="eg-cx-label" class="canva-text text-sm text-gray-400"></span>
          <p data-template-id="eg-cx-value" class="canva-text font-extrabold mt-2 text-white"></p>
@@ -329,19 +329,19 @@
          <p data-template-id="rel-2-value" class="canva-text font-extrabold mt-2 text-white"></p>
         </div>
         <div data-template-id="rel-3" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="rel-3-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="rel-3-value" class="canva-text font-extrabold mt-2" style="color:#00F2FE;"></p>
+         <p data-template-id="rel-3-value" class="canva-text font-extrabold mt-2" style="color:#AAAAAA;"></p>
         </div>
         <div data-template-id="rel-4" class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;"><span data-template-id="rel-4-label" class="canva-text text-sm text-gray-400"></span>
-         <p data-template-id="rel-4-value" class="canva-text font-extrabold mt-2" style="color:#028090;"></p>
+         <p data-template-id="rel-4-value" class="canva-text font-extrabold mt-2" style="color:#888888;"></p>
         </div>
        </div>
        <div class="canva-card rounded-xl p-5 border border-white/5" style="border-radius:12px;background:#09192E;">
         <h4 data-template-id="rel-resumo-title" class="canva-text font-semibold mb-4"></h4>
         <ul class="space-y-3 text-sm text-gray-300">
-         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#00F2FE;"></i><span data-template-id="rel-item-1" class="canva-text"></span></li>
-         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#00F2FE;"></i><span data-template-id="rel-item-2" class="canva-text"></span></li>
-         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#00F2FE;"></i><span data-template-id="rel-item-3" class="canva-text"></span></li>
-         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#00F2FE;"></i><span data-template-id="rel-item-4" class="canva-text"></span></li>
+         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#AAAAAA;"></i><span data-template-id="rel-item-1" class="canva-text"></span></li>
+         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#AAAAAA;"></i><span data-template-id="rel-item-2" class="canva-text"></span></li>
+         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#AAAAAA;"></i><span data-template-id="rel-item-3" class="canva-text"></span></li>
+         <li class="flex gap-3"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#AAAAAA;"></i><span data-template-id="rel-item-4" class="canva-text"></span></li>
         </ul>
        </div>
       </section><!-- CONFIGURACOES -->
@@ -364,7 +364,7 @@
         <div><label data-template-id="cfg-end-label" for="cfg-end" class="canva-text block text-sm mb-2 font-medium"></label><input id="cfg-end" type="text" class="w-full rounded-lg px-3 py-2.5 text-sm border border-white/10 outline-none text-gray-100" style="background:#020D1A;" placeholder="Rua, nº - Bairro, Cidade">
         </div>
         <div class="flex items-center gap-3">
-         <button data-template-id="cfg-save" type="submit" class="canva-button grad-btn text-white font-semibold px-5 py-2.5 rounded-xl"></button> <span id="cfg-saved" data-template-id="cfg-saved-msg" class="canva-text text-sm hidden" style="color:#00F2FE;"></span>
+         <button data-template-id="cfg-save" type="submit" class="canva-button grad-btn text-white font-semibold px-5 py-2.5 rounded-xl"></button> <span id="cfg-saved" data-template-id="cfg-saved-msg" class="canva-text text-sm hidden" style="color:#AAAAAA;"></span>
         </div>
        </form>
       </section>
@@ -425,7 +425,7 @@
       </div>
      </div>
      <div>
-      <div class="flex items-center justify-between mb-2"><label data-template-id="ml-gram-label" class="canva-text text-sm font-medium"></label><button id="ml-add-row" data-template-id="ml-add-btn" class="canva-button text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 text-white" style="background:#028090;"><i data-lucide="plus" style="width:14px;height:14px;"></i><span></span></button>
+      <div class="flex items-center justify-between mb-2"><label data-template-id="ml-gram-label" class="canva-text text-sm font-medium"></label><button id="ml-add-row" data-template-id="ml-add-btn" class="canva-button text-xs px-3 py-1.5 rounded-lg flex items-center gap-1 text-white" style="background:#888888;"><i data-lucide="plus" style="width:14px;height:14px;"></i><span></span></button>
       </div>
       <div id="ml-rows" class="space-y-2"></div>
      </div>
@@ -445,7 +445,7 @@
      <div><label data-template-id="mr-valor-label" for="mr-valor" class="canva-text block text-sm mb-1.5 font-medium"></label><input id="mr-valor" type="number" class="w-full rounded-lg px-3 py-2.5 text-sm border border-white/10 outline-none text-gray-100" style="background:#020D1A;" placeholder="0,00">
      </div>
     </div>
-    <div class="flex justify-end gap-2 mt-6"><button data-close data-template-id="mr-cancel" class="canva-button px-4 py-2 rounded-lg text-sm border border-white/10 text-gray-300"></button><button data-close data-template-id="mr-save" class="canva-button text-white px-4 py-2 rounded-lg text-sm font-semibold" style="background:#028090;"></button>
+    <div class="flex justify-end gap-2 mt-6"><button data-close data-template-id="mr-cancel" class="canva-button px-4 py-2 rounded-lg text-sm border border-white/10 text-gray-300"></button><button data-close data-template-id="mr-save" class="canva-button text-white px-4 py-2 rounded-lg text-sm font-semibold" style="background:#888888;"></button>
     </div>
    </div>
   </div><!-- MODAL: Despesa -->
@@ -466,7 +466,7 @@
     </div>
    </div>
   </div><!-- Toast -->
-  <div id="toast" class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-xl text-sm font-medium shadow-2xl" style="background:#051426;border:1px solid rgba(0,242,254,.4);color:#00F2FE;"></div>
+  <div id="toast" class="hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-xl text-sm font-medium shadow-2xl" style="background:#051426;border:1px solid rgba(170,170,170,.4);color:#AAAAAA;"></div>
   <script src="/_sdk/e063511df281944a.editing_sdk.js" integrity="sha512-Xa8p4aPfoMxVnzxQE2WAG0FfoaPLxdjOJMfUZGm1yZosJTYmnNDvgLkJ2EoN0i3zxjeQVAzUMSXNvTKQVqbXyQ=="></script>
   <script>
   // ---- Initialize login screen text ----
@@ -693,10 +693,10 @@
       const [data, desc, cat, tipo, valor, isIn] = r;
       [data, desc, cat].forEach(v => { const td = document.createElement('td'); td.className='px-5 py-3'; td.textContent=v; tr.appendChild(td); });
       const tTipo = document.createElement('td'); tTipo.className='px-5 py-3';
-      tTipo.innerHTML = `<span class="text-xs px-2.5 py-1 rounded-full" style="background:${isIn?'rgba(0,242,254,.15)':'rgba(255,74,74,.15)'};color:${isIn?'#00F2FE':'#FF4A4A'};">${tipo}</span>`;
+      tTipo.innerHTML = `<span class="text-xs px-2.5 py-1 rounded-full" style="background:${isIn?'rgba(170,170,170,.15)':'rgba(255,74,74,.15)'};color:${isIn?'#AAAAAA':'#FF4A4A'};">${tipo}</span>`;
       tr.appendChild(tTipo);
       const tVal = document.createElement('td'); tVal.className='px-5 py-3 text-right font-semibold';
-      tVal.style.color = isIn ? '#00F2FE' : '#FF4A4A'; tVal.textContent = valor; tr.appendChild(tVal);
+      tVal.style.color = isIn ? '#AAAAAA' : '#FF4A4A'; tVal.textContent = valor; tr.appendChild(tVal);
       body.appendChild(tr);
     });
   }
@@ -733,7 +733,7 @@
     ctx.strokeStyle='rgba(255,255,255,.05)'; ctx.lineWidth=1;
     for(let g=0;g<=4;g++){const y=pad+(h-pad*2)*g/4;ctx.beginPath();ctx.moveTo(pad,y);ctx.lineTo(w-pad,y);ctx.stroke();}
     data.forEach((v,i)=>{const x=pad+gap*i+(gap-bw)/2,bh=(v/max)*(h-pad*2),y=h-pad-bh;
-      const grad=ctx.createLinearGradient(0,y,0,h-pad);grad.addColorStop(0,'#00F2FE');grad.addColorStop(1,'#028090');
+      const grad=ctx.createLinearGradient(0,y,0,h-pad);grad.addColorStop(0,'#AAAAAA');grad.addColorStop(1,'#888888');
       ctx.fillStyle=grad;ctx.beginPath();ctx.roundRect(x,y,bw,bh,6);ctx.fill();
       ctx.fillStyle='#9ca3af';ctx.font='11px Work Sans';ctx.textAlign='center';ctx.fillText(labels[i],x+bw/2,h-pad+16);});
   }
@@ -741,7 +741,7 @@
     const c=document.getElementById('pieChart'); if(!c) return;
     const dpr=window.devicePixelRatio||1,w=c.clientWidth,h=220;
     c.width=w*dpr;c.height=h*dpr;const ctx=c.getContext('2d');ctx.scale(dpr,dpr);ctx.clearRect(0,0,w,h);
-    const segs=[{label:'Tilápia',val:40,color:'#028090'},{label:'Camarão',val:25,color:'#00F2FE'},{label:'Pescada',val:20,color:'#0F3A40'},{label:'Outros',val:15,color:'#1F2D3D'}];
+    const segs=[{label:'Tilápia',val:40,color:'#888888'},{label:'Camarão',val:25,color:'#AAAAAA'},{label:'Pescada',val:20,color:'#0F3A40'},{label:'Outros',val:15,color:'#1F2D3D'}];
     const cx=w/2,cy=h/2,r=Math.min(w,h)/2-12;let start=-Math.PI/2,total=segs.reduce((s,x)=>s+x.val,0);
     segs.forEach(s=>{const ang=(s.val/total)*Math.PI*2;ctx.beginPath();ctx.moveTo(cx,cy);ctx.arc(cx,cy,r,start,start+ang);ctx.closePath();ctx.fillStyle=s.color;ctx.fill();start+=ang;});
     ctx.beginPath();ctx.arc(cx,cy,r*0.55,0,Math.PI*2);ctx.fillStyle='#09192E';ctx.fill();
